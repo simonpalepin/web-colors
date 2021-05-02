@@ -96,7 +96,7 @@ export const textToRgba = (value: string): RGBA => {
     R: toChannel(rgba?.[0]) || 0,
     G: toChannel(rgba?.[1]) || 0,
     B: toChannel(rgba?.[2]) || 0,
-    A: toAlphaChannel(rgba?.[3] || 1),
+    A: toAlphaChannel(rgba?.[3]),
   };
 };
 
