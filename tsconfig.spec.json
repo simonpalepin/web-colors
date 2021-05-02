@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./out-tsc/spec",
+    "baseUrl": "./",
+    "module": "commonjs",
+    "types": ["jest", "node", "@types/jest"],
+    "importHelpers": true,
+    "lib": ["esnext"],
+  },
+  "exclude": ["dist/**", "packages/**", "packages/**/dist/**"],
+  "include": ["packages/**/src/**.spec.ts"]
+}

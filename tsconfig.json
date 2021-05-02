@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "esnext",
+    "composite": true,
+    "paths": {
+      "@simonpalepin/*": ["packages/*"]
+    },
+    "types": ["node", "typescript"]
+  },
+    "include": ["packages/**/**.ts"],
+    "exclude": ["node_modules", "packages/**/**.spec.ts"]
+}
