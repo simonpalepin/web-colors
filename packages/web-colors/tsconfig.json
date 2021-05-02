@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "types": ["@types/jest"]
+  },
+  "include": [
+    "src/**/*",
+    "index.ts",
+    "public_api.ts"
+  ]
+}
